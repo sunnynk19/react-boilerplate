@@ -1,0 +1,87 @@
+.login-img{
+	background-image: url(/img/login-img.png);
+	background-color: #cccccc;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.full-height{
+	height: 100vh !important;
+}
+
+.signin-header{
+    font-size: 30px;
+    color: #1b1e24;
+    margin-bottom: 50px;
+}
+
+.left-container-alignment{
+	padding: 2rem 8rem 0rem 12rem !important;
+}
+
+label{
+	font-size: 14px;
+    line-height: 1.21;
+    color: #252631;
+}
+
+input[type=email], input[type=password]{
+	border: 1px solid #e8ecef;
+	height: 52px;
+}
+
+::placeholder{
+	color: #98a9bc;
+	font-size: 14px;
+}
+
+#remember-me{
+	display: none;
+}
+
+.checker {
+  background-image: url(/img/unchecked.png);
+  background-position: left center;
+  background-size: auto 100%;
+  width: 21px;
+  height: 22px;
+  background-repeat: no-repeat;
+}
+#remember-me:checked + .checker {
+  background-image: url(/img/checked.png);
+}
+
+.remember-me-class{
+	padding: 0.3rem 0.8rem;
+}
+
+.recover-password{
+	font-size: 14px;
+    font-weight: 500;
+    color: #4d7cfe;
+    cursor: pointer;
+}
+
+.btn{
+	height: 46px;
+    width: 100%;
+}
+
+.custom-hr{
+	border-top: 1px solid #e8ecef;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.custom-hr:before{
+	content: "OR";
+    color: #e8ecef;
+    position: absolute;
+    margin-left: 22%;
+    margin-top: -11px;
+    background-color: #ffffff;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 500;
+
+}

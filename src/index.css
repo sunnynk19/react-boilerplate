@@ -1,12 +1,64 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 14px !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.color-778ca2{
+	color: #778ca2 !important;
+}
+
+.color-4d7cfe{
+	color: #4d7cfe !important;
+}
+
+.font-500{
+	font-weight: 500;
+}
+
+.cursor-pointer{
+	cursor: pointer;
+}
+.bg-4d7cfe{
+	background-color: #4d7cfe !important;
+}
+
+.btn-blue{
+	font-size: 14px !important;
+  font-weight: 500 !important;
+  background-color: #4d7cfe !important;
+  color: #ffffff !important;
+  height: 46px !important;
+}
+
+.btn-fb{
+	font-size: 14px !important;
+  font-weight: 500 !important;
+  background-color: #35599e !important;
+  color: #ffffff !important;
+  height: 46px !important;
+}
+
+.btn-twittr{
+	font-size: 14px !important;
+  font-weight: 500 !important;
+  background-color: #00adf3 !important;
+  color: #ffffff !important;
+  height: 46px !important;
+}
+
+.btn-google{
+	font-size: 14px !important;
+  font-weight: 500 !important;
+  background-color: #ea4335 !important;
+  color: #ffffff !important;
+  height: 46px !important;
 }
